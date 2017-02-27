@@ -116,7 +116,7 @@ nav > ul > li > a:hover {
 	margin-right: 12px;
 }
 
-main {
+.main {
 	width: 978px;
 	margin: 0 auto;
 }
@@ -417,7 +417,7 @@ footer {
 	margin: 0 auto;
 	border-top: 1px dotted #cacaca;
 	margin-top: 79px;
-	padding: 26px 0;
+	padding: 22px 0;
 }
 
 footer p {	
@@ -425,4 +425,18 @@ footer p {
 	line-height: 2;
 	font-weight: 400;
 	color: #7c7c7c;
+	margin-top: 4px;
+}
+
+footer .social {
+	float: right;
+}
+
+footer .social i {
+	display: inline-block;
+	background-color: #b8b8b8;
+	color: #fff;
+	border-radius: 50%;
+	padding: 6px 4px;
+	font-size: 16px;
 }
