@@ -130,6 +130,7 @@ nav > ul > li > a:hover {
 
 .lcol {
 	margin-right: 280px;
+	min-width: 698px;
 }
 
 h1 {
@@ -199,17 +200,17 @@ p {
 	color: #24b5e1;
 }
 
-.lcol > .gallery-holder {
+.gallery-holder {
 	margin-top: 10px;
 	margin-bottom: 18px;
 }
 
-.lcol > .gallery-holder > img {
+.gallery-holder  img {
 	width: 215px;
 	margin-right: 20px;
 }
 
-.lcol > .gallery-holder > img:last-child {
+.gallery-holder  img:last-child {
 	margin-right: 0;
 }
 
@@ -227,7 +228,7 @@ p {
 	margin-top: 8px;
 }
 
-table {
+.lcol table {
 	font-size: 11px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -237,25 +238,25 @@ table {
 	color: #323232;
 }
 
-table > tbody > tr:last-child {
+.lcol table tr:last-child {
 	height: 40px;
 }
 
-table > tbody > tr > th:first-child {
+.lcol table th:first-child {
 	width: 67px;
 }
 
-th, td {
+.lcol table th, .lcol table td {
 	text-align: left;
 	font-weight: 400;
 	padding: 6px 12px;
 }
 
-th {
+.lcol table th {
 	color: #7d7d7d;
 }
 
-tr > td:last-child {
+.lcol table td:last-child {
 	text-align: right;
 }
 
@@ -263,7 +264,7 @@ tr > td:last-child {
 	color: #24b6e1;
 }
 
-td > a {
+.lcol table td a {
 	color: #24b6e1;
 }
 
@@ -287,6 +288,11 @@ td > a {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.6;
+	cursor: pointer;
+}
+
+.label-holder label:hover {
+	background-color: #7fc6db;
 }
 
 [data-check="1"]:checked ~
@@ -392,15 +398,15 @@ input[type="search"] {
 	margin-top: 88px;
 }
 
-.subscription > form {
+.subscription form {
 	margin-top: 17px;
 }
 
-input[type="email"] {
+.subscription input[type="email"] {
 	margin-top: 15px;
 }
 
-input[type="button"] {
+.subscription input[type="button"] {
 	float: right;
 	font-size: 14px;
 	line-height: 1.3;
