@@ -299,12 +299,14 @@ p {
 .label-holder label[data-check="first-tab"] {
 	background-color: #23b5e1;
 	color: #fff;
+	cursor: default;
 }
 
 [data-check="2"]:checked ~
 .label-holder label[data-check="second-tab"] {
 	background-color: #23b5e1;
 	color: #fff;
+	cursor: default;
 }
 
 .tab-content {
