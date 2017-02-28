@@ -13,6 +13,10 @@ a {
 	color: #23b5e1;
 }
 
+p {
+	margin-top: 10px;
+}
+
 header {
 	padding-top: 36px;
 }
@@ -296,14 +300,15 @@ p {
 }
 
 [data-check="1"]:checked ~
-.label-holder label[data-check="first-tab"] {
-	background-color: #23b5e1;
-	color: #fff;
-	cursor: default;
-}
-
+.label-holder label[data-check="first-tab"],
 [data-check="2"]:checked ~
-.label-holder label[data-check="second-tab"] {
+.label-holder label[data-check="second-tab"],
+[data-check="3"]:checked ~
+.label-holder label[data-check="third-tab"],
+[data-check="4"]:checked ~
+.label-holder label[data-check="fourth-tab"],
+[data-check="5"]:checked ~
+.label-holder label[data-check="fifth-tab"] {
 	background-color: #23b5e1;
 	color: #fff;
 	cursor: default;
@@ -317,14 +322,19 @@ p {
 }
 
 [data-check="1"]:checked ~
-[data-check="first-tab-content"] {
+[data-check="first-tab-content"],
+[data-check="2"]:checked ~
+[data-check="second-tab-content"],
+[data-check="3"]:checked ~
+[data-check="third-tab-content"],
+[data-check="4"]:checked ~
+[data-check="fourth-tab-content"],
+[data-check="5"]:checked ~
+[data-check="fifth-tab-content"] {
 	display: block;
 }
 
-[data-check="2"]:checked ~
-[data-check="second-tab-content"] {
-	display: block;
-}
+
 
 
 
