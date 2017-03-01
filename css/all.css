@@ -93,23 +93,31 @@ header.header {
 	background: url(../images/logo.png);
 }
 
-.navigation {
+.navigation-holder {
 	margin-top: 37px;
 	height: 41px;
-	overflow: hidden;
 	background-color: #f2f2f2;
 }
 
-.navigation-holder {
-	margin: 0 auto;
+.navigation {
 	min-width: 900px;
-	max-width: 1200px;	
+	max-width: 1200px;
+	overflow: hidden;	
+	margin: 0 auto;
+	height: 41px;
 	padding: 0 10px;
+	background-color: #f2f2f2;
 }
 
 .navigation ul {
 	display: block;
 	text-align: justify;
+}
+
+.navigation ul:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
 }
 
 .navigation li {
@@ -160,12 +168,6 @@ header.header {
 	font-size: 15px;
 	font-weight: 400;
 	text-decoration: none;
-}
-
-.navigation ul:after {
-	content: '';
-	display: inline-block;
-	width: 100%;
 }
 
 .breadcrumbs-holder {
