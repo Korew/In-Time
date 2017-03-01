@@ -207,7 +207,7 @@ header.header {
 }
 
 .lcol {
-	width: calc(100% - 283px);
+	margin-right: 283px;
 }
 
 .image-holder {
