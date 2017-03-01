@@ -258,8 +258,8 @@ header.header {
 
 .gallery-holder .image-holder {
 	display: inline-block;
-	width: 31%;
-	margin-right: 2%;
+	width: calc(33% - 10px);
+	margin-right: 10px;
 	vertical-align: top;
 }
 
